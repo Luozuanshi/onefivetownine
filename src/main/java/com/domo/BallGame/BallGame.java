@@ -12,5 +12,6 @@ public class BallGame extends JFrame{
 	public static void main(String[] args) {
 		BallGame game =new BallGame();
 		game.launchFrame();
+		
 	}
 }
