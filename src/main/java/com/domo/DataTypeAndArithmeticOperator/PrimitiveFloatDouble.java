@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.domo.DefinevariableIdentif;
+package com.domo.DataTypeAndArithmeticOperator;
 
 import java.math.BigDecimal;
 

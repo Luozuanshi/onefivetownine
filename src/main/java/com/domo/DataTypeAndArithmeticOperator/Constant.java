@@ -1,4 +1,4 @@
-package com.domo.DefinevariableIdentif;
+package com.domo.DataTypeAndArithmeticOperator;
 
 /**
    * 项目名称：domo
