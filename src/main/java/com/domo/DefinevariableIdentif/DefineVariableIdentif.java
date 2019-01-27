@@ -7,10 +7,11 @@ package com.domo.DefinevariableIdentif;
  * @author Administrator
  * @version 1.0
    * 创建时间2019年1月27日下午3:59:49
-   * 类描述:变量的命令规则,变量的定义,变量的初始化
+   * 类描述:变量的命令规则,变量的定义,变量的初始化，变量的作用域
  */
 public class DefineVariableIdentif {
-
+	int box;//成员变量，从属于对象,成员变量会被自动初始化
+	static int sendbox;//静态变量，从属于类
 	public static void main(String[] args) {
 		//可以使用中文
 		String 你好="nihao";
@@ -26,7 +27,13 @@ public class DefineVariableIdentif {
 		int max,min,hello;
 //		System.out.println(max);The local variable max may not have been initialized
 //		System.out.println(domo);domo cannot be resolved to a variable
+		
+		//局部变量 在方法体，或者语句块内定义的变量
+		char sex;//局部变量使用需要初始化
+//		System.out.println(sex); The local variable sex may not have been initialized
+		
 	}
+	
 	
 	
 }
