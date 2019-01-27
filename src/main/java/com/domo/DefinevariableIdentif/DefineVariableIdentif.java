@@ -9,7 +9,7 @@ package com.domo.DefinevariableIdentif;
    * 创建时间2019年1月27日下午3:59:49
    * 类描述:变量的命令规则,变量的定义,变量的初始化
  */
-public class VariableIdentif {
+public class DefineVariableIdentif {
 
 	public static void main(String[] args) {
 		//可以使用中文
