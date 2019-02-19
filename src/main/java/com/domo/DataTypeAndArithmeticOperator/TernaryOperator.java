@@ -9,7 +9,7 @@ package com.domo.DataTypeAndArithmeticOperator;
  * @author Administrator
  * @version 1.0
    * 创建时间2019年2月7日下午10:51:25
-   * 类描述:三目运算符,条件判断
+   * 类描述:三目运算符,条件判断 
  */
 public class TernaryOperator {
 	public static void main(String[] args) {
