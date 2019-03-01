@@ -9,7 +9,7 @@ package com.domo.DataTypeAndArithmeticOperator;
  * @author Administrator
  * @version 1.0
    * 创建时间2019年3月1日下午8:41:04
-   * 类描述
+   * 类描述:for循环语句
  */
 public class ForStatement {
 	
