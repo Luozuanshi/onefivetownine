@@ -44,9 +44,5 @@ public class Recurision {
 		}else { //递归体：怎样调用自身方法
 			return n*factorial(n-1);
 		}
-		
-		
-		
-		
 	}
 }
