@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.domo.OOP;
+package com.domo.OOP.base;
 
 /**
    * 项目名称：domo

@@ -2,9 +2,10 @@
  * 1. Java会默认导入java.lang包下所有的类，因此这些类我们可以直接使用。
 　　 2. 如果导入两个同名的类，只能用包名+类名来显示调用相关类：　
  */
-package com.domo.OOP;
+package com.domo.OOP.base;
 
 import java.util.Date;
+
 import com.domo.ProcessControl.*;//导入该包下所有的类。会降低编译速度，但不会降低运行速度。
 import static java.lang.Math.*;//导入Math类的所有静态属性
 import static java.lang.Math.PI;//导入Math类的PI属性
