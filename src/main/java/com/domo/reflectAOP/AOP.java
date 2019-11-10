@@ -76,9 +76,8 @@ public class AOP {
 	public static void main(String[] args) {
 		SuperMan Man = new SuperMan();
 		Human superMan =(Human) MyProxy.getproxyInstance(Man);
-
-		superMan.info();
 		superMan.fly();
+		superMan.info();
 		
 	}
 }
