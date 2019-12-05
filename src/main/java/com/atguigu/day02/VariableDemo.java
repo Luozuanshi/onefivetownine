@@ -3,7 +3,7 @@ public class VariableDemo{
         String name ="zhangsan";
         int age = 18;
         double salary = 15000.05;
-        char gender = 'ÄÐ';
+        char gender = 'ç”·';
         System.out.println(name);
         System.out.println(age);
         System.out.println(salary);
