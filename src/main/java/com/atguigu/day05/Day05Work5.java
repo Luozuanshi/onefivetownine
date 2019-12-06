@@ -9,7 +9,7 @@ public class Day05Work5{
         //3.判断有多少日有多少天
         //统计年月日一共有多少天
 
-        int years=1991,month=1,days=2,totaldays=0;
+        int years=2019,month=12,days=8,totaldays=0;
         for(int i = 1 ;i<=(years-1990);i++ ){
             if(isRyears(i)==true){
                 totaldays+=366;
@@ -23,19 +23,13 @@ public class Day05Work5{
 
 
         switch(totaldays%5){
-            case 0:
-                System.out.println("今天打鱼");
-                break;
             case 1:
-                System.out.println("今天打鱼");
-                break;
             case 2:
-                System.out.println("今天打鱼");
-                break;
             case 3:
-                System.out.println("今天晒网");
+                System.out.println("今天打鱼");
                 break;
             case 4:
+            case 0:
                 System.out.println("今天晒网");
         }
     }
