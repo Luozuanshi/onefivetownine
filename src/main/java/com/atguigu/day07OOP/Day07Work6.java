@@ -36,7 +36,6 @@ class Book{
         }else if(price>100 && price <=150){
             this.price = 100;
         }
-
         System.out.println(price);
     }
 }
