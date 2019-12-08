@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day06;
+package src.main.java.com.atguigu.day06Array;
 
 import java.util.Scanner;
 
