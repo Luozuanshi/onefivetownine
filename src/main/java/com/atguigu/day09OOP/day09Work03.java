@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day09OOP;
+package com.atguigu.day09OOP;
 /**
  * @Description:    请编写一个猜拳的游戏
  * 有个人 Tom 设计他的成员变量. 成员方法, 可以电脑猜拳. 电脑每次都会随机生成 0, 1, 2
@@ -11,10 +11,10 @@ package src.main.java.com.atguigu.day09OOP;
  * @UpdateRemark:   修改内容
  * @Version:        1.0
  */
-import java.util.*;
+import java.util.Scanner;
 public class day09Work03 {
     public static void main(String[] args){
-        Person tom = new Person();
+        Person1 tom = new Person1();
         Computer com = new Computer();
 
         Scanner in  = new Scanner(System.in);
@@ -33,6 +33,12 @@ public class day09Work03 {
 
             tom.chuquan();//tom出拳
             com.computerChuquan(tom);//和电脑比对
+            try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
         }while(true);
 
 
@@ -40,14 +46,14 @@ public class day09Work03 {
 
 }
 
-class Person{
+class Person1{
     String name = "Tom";
     int personChuquan; //出拳结果
 
     //出拳并返回结果
     public int chuquan(){
-        tomChuquan= (int)(Math.random() *3 + 1);
-        return tomChuquan ;
+        personChuquan= (int)(Math.random() *3 + 1);
+        return personChuquan ;
     }
 }
 class Computer{
@@ -56,39 +62,39 @@ class Computer{
     int TomWinCount;//Tom赢的次数
     String personChuquanVal;//Tom的出拳结果 用于输出
 
-    public int computerChuquan(Person tom){
+    public int computerChuquan(Person1 tom){
         int computerChuquan =(int)(Math.random() *3 + 1);//电脑出拳
         //拿到Tom 的出拳结果 用作输出
-        switch(tom.tomChuquan){
+        switch(tom.personChuquan){
             case 0:
-                tomChuquanVal = "石头";
+                personChuquanVal = "石头";
                 break;
             case 1:
-                tomChuquanVal = "剪刀";
+                personChuquanVal = "剪刀";
                 break;
             case 2:
-                tomChuquanVal = "布";
+                personChuquanVal = "布";
                 break;
         }
         //判断并把结果计数
         switch(computerChuquan){
             case 0:
-                if(tom.tomChuquan!= 2 && tom.tomChuquan !=0)winCount++;
-                else if(tom.tomChuquan ==0)pingshouCount++;
+                if(tom.personChuquan!= 2 && tom.personChuquan !=0)winCount++;
+                else if(tom.personChuquan ==0)pingshouCount++;
                 else TomWinCount++;
-                System.out.println("电脑出了石头，Tom出了"+tomChuquanVal);
+                System.out.println("电脑出了石头，Tom出了"+personChuquanVal);
             break;
             case 1:
-                if(tom.tomChuquan!= 0 && tom.tomChuquan !=1)winCount++;
-                else if(tom.tomChuquan ==1)pingshouCount++;
+                if(tom.personChuquan!= 0 && tom.personChuquan !=1)winCount++;
+                else if(tom.personChuquan ==1)pingshouCount++;
                 else TomWinCount++;
-                System.out.println("电脑出了剪刀，Tom出了"+tomChuquanVal);
+                System.out.println("电脑出了剪刀，Tom出了"+personChuquanVal);
                 break;
             case 2:
-                if(tom.tomChuquan!= 1 && tom.tomChuquan !=2)winCount++;
-                else if(tom.tomChuquan ==2)pingshouCount++;
+                if(tom.personChuquan!= 1 && tom.personChuquan !=2)winCount++;
+                else if(tom.personChuquan ==2)pingshouCount++;
                 else TomWinCount++;
-                System.out.println("电脑出了布，Tom出了"+tomChuquanVal);
+                System.out.println("电脑出了布，Tom出了"+personChuquanVal);
                 break;
             default:
                 return winCount;
