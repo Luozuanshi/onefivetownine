@@ -36,7 +36,7 @@ class Circle{
     double radius;
 
     //这个方法不改变对象本身属性
-    public double findArea(double radius){
+    public double findArea(){
         double area = 3.1415926*radius*radius;
 //        System.out.println("面积为："+area);
         return area;
@@ -48,7 +48,8 @@ class PassObject{
     public void printAreas(Circle c,int time){
         System.out.println("Radius"+"\tArea");
         for(int i = 1;i<=time;i++){
-            System.out.print(i+"\t"+c.findArea(i));
+            c.radius = i;
+            System.out.print(i+"\t"+c.findArea());
             System.out.println();
         }
     }

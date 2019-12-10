@@ -12,8 +12,8 @@ package com.atguigu.day07OOP;
 public class Day07Work1 {
     public static void main(String[] args) {
         Calc calc = new Calc();//实例化对象
-        calc.number1 =1;//初始化对象属性
-        calc.number2 =8;
+        calc.number1 =0;//初始化对象属性
+        calc.number2 =1;
         double resultSum = calc.sum(calc.number1,calc.number2);//调用对象方法
         double resultSubduction = calc.subduction(calc.number1,calc.number2);
         double resultMul = calc.mul(calc.number1,calc.number2);
@@ -47,7 +47,7 @@ class Calc{
     }
 
     public double division(double number1,double number2){
-        if(number1 == 0){
+        if(number2 == 0){
             System.out.println("除数不能为零");
             return 0;
         }
