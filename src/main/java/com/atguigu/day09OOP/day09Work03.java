@@ -30,15 +30,10 @@ public class day09Work03 {
             }else if(oK==3){
                 break;
             }
-
+           
             tom.chuquan();//tom出拳
             com.computerChuquan(tom);//和电脑比对
-            try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+
         }while(true);
 
 
@@ -52,7 +47,7 @@ class Person1{
 
     //出拳并返回结果
     public int chuquan(){
-        personChuquan= (int)(Math.random() *3 + 1);
+        personChuquan= (int)(Math.random() *2 + 1);
         return personChuquan ;
     }
 }
@@ -63,7 +58,7 @@ class Computer{
     String personChuquanVal;//Tom的出拳结果 用于输出
 
     public int computerChuquan(Person1 tom){
-        int computerChuquan =(int)(Math.random() *3 + 1);//电脑出拳
+        int computerChuquan =(int)(Math.random() *2 + 1);//电脑出拳
         //拿到Tom 的出拳结果 用作输出
         switch(tom.personChuquan){
             case 0:
