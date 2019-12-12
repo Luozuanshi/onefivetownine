@@ -4,11 +4,7 @@
 /onefivetownine.iml
 .class
 /classes/
-/src/main/java/com/atguigu/day01/
-/src/main/java/com/atguigu/day02/
-/src/main/java/com/atguigu/day03/
-/src/main/java/com/atguigu/day04/
-/src/main/java/com/atguigu/day05/
-/src/main/java/com/atguigu/day06Array/
-/src/main/java/com/atguigu/day07OOP/
-/src/main/java/com/atguigu/day08OOP/
+.project
+/classes/
+./idea
+/.settings/
