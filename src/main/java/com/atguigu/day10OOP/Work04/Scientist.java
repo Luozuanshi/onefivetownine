@@ -16,10 +16,22 @@ package com.atguigu.day10OOP.Work04;
 （4）编写一个测试类,将各种类型的员工的全年工资打印出来。（10分）
  */
 public class Scientist extends Employee {
-
+	private double yearEndDollars;
 	public Scientist(double salary, int workDay) {
 		super(salary, workDay);
 	}
+	
+	public String showSalary() {
+		return super.showSalary()+" 年终奖："+yearEndDollars;
+	
+	}
+	public double getYearEndDollars() {
+		return yearEndDollars;
+	}
+	public void setYearEndDollars(double yearEndDollars) {
+		this.yearEndDollars = yearEndDollars;
+	}
+	
 	
 	
 }

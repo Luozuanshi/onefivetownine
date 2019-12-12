@@ -18,11 +18,21 @@ package com.atguigu.day10OOP.Work04;
 public class Teacher extends Employee{
 	private double dollars;//
 	
-	public Teacher(double salary, int workDay) {
+	public Teacher(double salary, int workDay,double dollars) {
 		super(salary, workDay);
-	}
+		this.dollars = dollars;	}
 	
 	public String showSalary() {
-		return super.showSalary()+"课酬：" + dollars*super.getWorkDay();
+		
+		return super.showSalary()+"老师的全年课酬：" + dollars*super.getWorkDay(); 
 	}
+
+	public double getDollars() {
+		return dollars;
+	}
+
+	public void setDollars(double dollars) {
+		this.dollars = dollars;
+	}
+	
 }
