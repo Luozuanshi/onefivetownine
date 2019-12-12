@@ -1,27 +1,27 @@
-package src.main.java.com.atguigu.day06Array;
+package com.atguigu.day06Array;
 /**
- * @Description:    javaÀà×÷ÓÃÃèÊö
+ * @Description:    javaç±»ä½œç”¨æè¿°
  * @Author:         pangluo
- * @CreateDate:     2019Äê12ÔÂ6ÈÕ18:45:12
+ * @CreateDate:     2019å¹´12æœˆ6æ—¥18:45:12
  * @UpdateUser:     pangluo
- * @UpdateDate:     2019Äê12ÔÂ6ÈÕ18:45:12 
- * @UpdateRemark:   Ã°ÅİÅÅĞòËã·¨
+ * @UpdateDate:     2019å¹´12æœˆ6æ—¥18:45:12
+ * @UpdateRemark:   å†’æ³¡æ’åºç®—æ³•
  * @Version:        1.0
  */
 public class Workday01 {
     public static void main(String[] args){
-        //Ã°ÅİÅÅĞò
-        //²½Öè1:Ç°Ò»¸öÊıºÍºóÒ»¸öÊı±È½Ï
-        //²½Öè2:Èç¹û´óÓÚºóÒ»¸öÊı,ÔòÁ½¸öÊı½»»»Î»ÖÃ
-        //²½Öè3:µÚÒ»¸öÑ­»·,´Ój=0±éÀúÕû¸ö´ÎÊı array.length- 1 -i(Ã¿±éÀúÒ»´Î¶¼ÉÙÒ»´ÎÑ­»·´ÎÊı)´Î
-        //²½Öè4:µÚ¶ş¸öÑ­»·,´Ói=0±éÀú²½Öè3 array.length´Î
+        //å†’æ³¡æ’åº
+        //æ­¥éª¤1:å‰ä¸€ä¸ªæ•°å’Œåä¸€ä¸ªæ•°æ¯”è¾ƒ
+        //æ­¥éª¤2:å¦‚æœå¤§äºåä¸€ä¸ªæ•°,åˆ™ä¸¤ä¸ªæ•°äº¤æ¢ä½ç½®
+        //æ­¥éª¤3:ç¬¬ä¸€ä¸ªå¾ªç¯,ä»j=0éå†æ•´ä¸ªæ¬¡æ•° array.length- 1 -i(æ¯éå†ä¸€æ¬¡éƒ½å°‘ä¸€æ¬¡å¾ªç¯æ¬¡æ•°)æ¬¡
+        //æ­¥éª¤4:ç¬¬äºŒä¸ªå¾ªç¯,ä»i=0éå†æ­¥éª¤3 array.lengthæ¬¡
 
-        int[] array = {1,2,4,8,2,3};//ĞèÒªÅÅĞòµÄÊı×é
+        int[] array = {1,2,4,8,2,3};//éœ€è¦æ’åºçš„æ•°ç»„
 
-        int temp = 0;//ÓÃÓÚÁ½¸öÊı½»»»µÄÁÙÊ±±äÁ¿
-        for(int i = 0;i<array.length;i++){ //Ñ­»· 5 ´Î ,iÖğ´ÎµİÔö
-            for(int j = 0;j< array.length- 1 -i;j++){ //´ÓÊı×é³¤¶Èarray.length Ñ­»·,Ã¿Ò»´Î¶¼ÉÙÑ­»·Ò»´Î i(1,2,3...Öğ½¥Ôö³¤µÄ)
-                if(array[j] > array[j+1] ){ //Ç°Ò»¸öÊıºÍºóÒ»¸öÊı±È½Ï,Èç¹û´óÓÚ½»»»
+        int temp = 0;//ç”¨äºä¸¤ä¸ªæ•°äº¤æ¢çš„ä¸´æ—¶å˜é‡
+        for(int i = 0;i<array.length;i++){ //å¾ªç¯ 5 æ¬¡ ,ié€æ¬¡é€’å¢
+            for(int j = 0;j< array.length- 1 -i;j++){ //ä»æ•°ç»„é•¿åº¦array.length å¾ªç¯,æ¯ä¸€æ¬¡éƒ½å°‘å¾ªç¯ä¸€æ¬¡ i(1,2,3...é€æ¸å¢é•¿çš„)
+                if(array[j] > array[j+1] ){ //å‰ä¸€ä¸ªæ•°å’Œåä¸€ä¸ªæ•°æ¯”è¾ƒ,å¦‚æœå¤§äºäº¤æ¢
                     temp = array[j];
                     array[j] = array[j+1];
                     array[j+1] = temp;
@@ -29,7 +29,7 @@ public class Workday01 {
             }
         }
 
-        //´òÓ¡Êä³ö
+        //æ‰“å°è¾“å‡º
         for(int i = 0;i< array.length;i++){
             System.out.print(array[i]);
         }

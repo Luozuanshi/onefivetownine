@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day05;
+package com.atguigu.day05;
 
 public class Day05Work7 {
     /**

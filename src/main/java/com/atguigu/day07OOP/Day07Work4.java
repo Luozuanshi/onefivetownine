@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day07OOP;
+package com.atguigu.day07OOP;
 /**
  * @Description:    二、定义方法，实现求某个double数组的最大值，并返回
  * @Author:         pangluo

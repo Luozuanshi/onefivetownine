@@ -30,7 +30,7 @@ public class day09Work03 {
             }else if(oK==3){
                 break;
             }
-           
+
             tom.chuquan();//tom出拳
             com.computerChuquan(tom);//和电脑比对
 

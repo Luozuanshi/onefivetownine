@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day07OOP;
+package com.atguigu.day07OOP;
 /**
  * @Description:    三、定义方法，实现查找某字符串数组中的元素查找，并返回索引，如果找不到，返回-1
  * @Author:         pangluo

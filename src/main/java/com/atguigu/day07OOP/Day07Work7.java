@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day07OOP;
+package com.atguigu.day07OOP;
 /**
  * @Description:    五、打印某字符串型数组中的所有元素
  *                  六.求整型数组的和

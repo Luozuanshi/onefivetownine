@@ -42,5 +42,12 @@ public class Test {
 		System.out.println(associateProfessor.introduce());
 		System.out.println(lecturer.introduce());
 		
+		Teacher teacher = new Teacher();
+		teacher.setAge(30);
+		teacher.setName("111111");
+		teacher.setPost("22222");
+		
+		System.out.println(teacher);
+		
 	}
 }

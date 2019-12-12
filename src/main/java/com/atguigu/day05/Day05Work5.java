@@ -1,3 +1,5 @@
+package com.atguigu.day05;
+
 import java.util.*;
 public class Day05Work5{
     public static void main(String[] args){

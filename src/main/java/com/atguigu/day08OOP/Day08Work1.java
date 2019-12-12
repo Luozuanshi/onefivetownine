@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day08OOP;
+package com.atguigu.day08OOP;
 /** 将对象作为参数传递给方法。
  * @Description:    （1）定义一个Circle类，包含一个double型的radius属性代表圆的半径，一个findArea()方法返回圆的面积。
  * （2）定义一个类PassObject，在类中定义一个方法printAreas()，该方法的定义如下：

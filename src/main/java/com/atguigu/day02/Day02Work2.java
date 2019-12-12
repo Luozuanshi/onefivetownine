@@ -1,4 +1,6 @@
-//±àÐ´³ÌÐò£¬Ê¹ÓÃcharÀàÐÍ£¬·Ö±ð±£´æ \n \t \r  \\  1  2  3µÈ×Ö·û£¬²¢´òÓ¡Êä³ö
+package com.atguigu.day02;
+
+//ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½charï¿½ï¿½ï¿½Í£ï¿½ï¿½Ö±ð±£´ï¿½ \n \t \r  \\  1  2  3ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½
 public class Day02Work2{
     public static void main(String[] args){
         char c1 = '\n';

@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day07OOP;
+package com.atguigu.day07OOP;
 /**
  * @Description: 1.定义一个圆类型
  * 	定义属性：半径

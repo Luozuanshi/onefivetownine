@@ -1,6 +1,8 @@
+package com.atguigu.day01;
+
 public class Demo1{
     public static void main(String[] args){
-        System.out.println("ÐÕÃû\tÄêÁä\t¼®¹á\t×¡Ö·\njohn\t12\tºÓ±±\t±±¾©");
+        System.out.println("ï¿½ï¿½ï¿½ï¿½\tï¿½ï¿½ï¿½ï¿½\tï¿½ï¿½ï¿½ï¿½\t×¡Ö·\njohn\t12\tï¿½Ó±ï¿½\tï¿½ï¿½ï¿½ï¿½");
     }
 }
 

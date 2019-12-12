@@ -1,15 +1,17 @@
+package com.atguigu.day04;
+
 import java.util.*;
 public class Day04Work{
     public static void main(String[] args){
-        //1.Êä³ö1-100Ö®¼äµÄ²»ÄÜ±»5Õû³ýµÄÊý£¬Ã¿5¸öÒ»ÐÐ¡£
+        //1.ï¿½ï¿½ï¿½1-100Ö®ï¿½ï¿½Ä²ï¿½ï¿½Ü±ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿5ï¿½ï¿½Ò»ï¿½Ð¡ï¿½
         int count =0;
         for(int i = 1; i<=100;i++){
             
             if((i%5) != 0){
                 count++; 
-                System.out.print(i+"\t"); //²»ÄÜ±»Õû³ýµÄÊý
+                System.out.print(i+"\t"); //ï¿½ï¿½ï¿½Ü±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             }
-            if((count%5) == 0){ //Ã¿Îå¸ö
+            if((count%5) == 0){ //Ã¿ï¿½ï¿½ï¿½
                 System.out.println();  
             }
            

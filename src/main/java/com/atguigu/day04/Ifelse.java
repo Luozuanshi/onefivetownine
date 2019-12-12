@@ -1,3 +1,5 @@
+package com.atguigu.day04;
+
 import java.util.*;
 public class Ifelse{
     public static void main(String[] args){

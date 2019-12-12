@@ -1,3 +1,5 @@
+package com.atguigu.day02;
+
 
 public class Work7{
     

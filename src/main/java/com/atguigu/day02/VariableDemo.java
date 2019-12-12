@@ -1,3 +1,5 @@
+package com.atguigu.day02;
+
 public class VariableDemo{
     public static void main(String[] args){
         String name ="zhangsan";

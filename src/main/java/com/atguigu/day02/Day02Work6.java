@@ -1,13 +1,15 @@
+package com.atguigu.day02;
+
 import java.util.*;
 public class Day02Work6{
     public static void main(String[] args){
-        //ÅÐ¶ÏÒ»¸öÕûÊýÊÇÅ¼Êý»¹ÊÇÆæÊý¡£if-else
+        //ï¿½Ð¶ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½if-else
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         if(a % 2 == 0){
-            System.out.println("Å¼Êý");
+            System.out.println("Å¼ï¿½ï¿½");
         }else{
-            System.out.println("ÆæÊý");
+            System.out.println("ï¿½ï¿½ï¿½ï¿½");
         }
     }
 }

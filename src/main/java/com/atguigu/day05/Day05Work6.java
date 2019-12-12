@@ -1,3 +1,5 @@
+package com.atguigu.day05;
+
 public class Day05Work6{
     public static void main(String[] args){
         /**

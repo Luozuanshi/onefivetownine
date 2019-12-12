@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day06Array;
+package com.atguigu.day06Array;
 import java.util.*;
 /**
  * @Description:    java类作用描述
