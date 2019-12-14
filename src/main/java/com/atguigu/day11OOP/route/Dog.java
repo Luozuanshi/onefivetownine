@@ -12,11 +12,11 @@ package com.atguigu.day11OOP.route;
    * 类描述
  */
 public class Dog extends Animal{
-//	private String name;
+	private String name;
 	
 	
 	public Dog(String name) {
-		super();
+		super(name);
 		this.name = name;
 	}
 

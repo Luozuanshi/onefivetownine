@@ -14,13 +14,14 @@ package com.atguigu.day11OOP.route;
 	
 	属性没有重写之说！属性的值看编译类型
 	     建议父类定义过的属性子类不再定义。
-	     如果子类定义了父类有的同名属性，并且实现了相应的有参数构造，创建子类的对象默认初始化的是子类的属性
+	     如果子类定义了父类有的同名属性，并且实现了相应的有参数构造，创建子类的对象默认初始化了子类的对应属性
  */
 public class Test {
 	public static void main(String[] args) {
 		Animal dog = new Dog("小黑");
 		System.out.println(dog.getName());
 		dog.setName("小白");
+		System.out.println(dog.getName());
 		dog.say();
 	}
 }

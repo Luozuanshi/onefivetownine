@@ -20,11 +20,12 @@ package com.atguigu.day11OOP.Work1;
  */
 public class Account {
 	public static void main(String[] args) {
-		
+		//TODO D111	
 //		1、扩展如下的BankAccount类，新类CheckingAccount对每次存款和取款都收取1美元的手续费
 		BankAccount account = new CheckingAccount(5000);//子类对象用父类接收
 		account.deposit(100); //调用的方法是子类的重写方法
 		account.deposit(100); //调用的方法是子类的重写方法
+		account.withdraw(100);
 		System.out.println(account.getBalance());//打印余额
 
 		
@@ -110,8 +111,7 @@ class CheckingAccount extends BankAccount{
 	 */
 	@Override
 	public void deposit(double amount) {
-		super.deposit(amount);
-		setBalance(getBalance()-1);
+		super.deposit(amount-1);
 		System.out.println(getBalance());
 	}
 	/**
@@ -119,8 +119,7 @@ class CheckingAccount extends BankAccount{
 	 */
 	@Override
 	public void withdraw(double amount) {
-		super.withdraw(amount);
-		setBalance(getBalance()-1);
+		super.withdraw(amount+1);
 		System.out.println(getBalance());
 	}
 	
