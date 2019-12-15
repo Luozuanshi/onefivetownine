@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.atguigu.day12OOP.Work;
+package com.atguigu.day12OOP.CustomerManagersys;
 
 /**
    * 项目名称：domo
@@ -10,6 +10,7 @@ package com.atguigu.day12OOP.Work;
  * @version 1.0
    * 创建时间2019年12月14日下午7:19:45
    * 类描述
+   * javaBean Customer对象
  */
 public class Customer {
 	private int id;
@@ -19,9 +20,23 @@ public class Customer {
 	private String phone;
 	private String email;
 	
+	public Customer() {
+		super();
+	}
+	
+	public Customer(int id, String name, char gender, int age, String phone, String email) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.gender = gender;
+		this.age = age;
+		this.phone = phone;
+		this.email = email;
+	}
 	public int getId() {
 		return id;
 	}
+	
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -67,6 +82,14 @@ public class Customer {
 		System.out.println("		  5退           出");
 
 	}
+
+	
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", gender=" + gender + ", age=" + age + ", phone=" + phone
+				+ ", email=" + email + "]";
+	}
+	
 	public static void main(String[] args) {
 		Customer customer = new Customer();
 		customer.showMunu();
@@ -77,12 +100,6 @@ public class Customer {
 		customer.setName("张三");
 		customer.setPhone("13187004444");
 		System.out.println(customer);
-	}
-	
-	@Override
-	public String toString() {
-		return "Customer [id=" + id + ", name=" + name + ", gender=" + gender + ", age=" + age + ", phone=" + phone
-				+ ", email=" + email + "]";
 	}
 	
 }
