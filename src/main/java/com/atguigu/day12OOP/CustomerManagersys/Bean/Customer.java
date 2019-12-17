@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.atguigu.day12OOP.CustomerManagersys;
+package com.atguigu.day12OOP.CustomerManagersys.Bean;
 
 /**
    * 项目名称：domo
@@ -24,9 +24,8 @@ public class Customer {
 		super();
 	}
 	
-	public Customer(int id, String name, char gender, int age, String phone, String email) {
+	public Customer( String name, char gender, int age, String phone, String email) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.gender = gender;
 		this.age = age;
@@ -71,28 +70,15 @@ public class Customer {
 		this.email = email;
 	}
 	
-
-
-	public void showMunu() {
-		System.out.println("-----------------客户信息管理软件-----------------");
-		System.out.println("		  1添 加 客 户");
-		System.out.println("		  2修 改客 户");
-		System.out.println("		  3删 除 客 户");
-		System.out.println("		  4客 户 列 表");
-		System.out.println("		  5退           出");
-
-	}
-
 	
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", name=" + name + ", gender=" + gender + ", age=" + age + ", phone=" + phone
-				+ ", email=" + email + "]";
+		return id + "\t" + name + "\t"
+				  + gender+ "\t" + age + "\t" + phone + "\t" + email;
 	}
 	
 	public static void main(String[] args) {
 		Customer customer = new Customer();
-		customer.showMunu();
 		customer.setAge(50);
 		customer.setEmail("123@qq.com");
 		customer.setGender('男');
