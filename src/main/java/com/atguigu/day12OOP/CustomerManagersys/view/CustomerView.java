@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import com.atguigu.day12OOP.CustomerManagersys.Bean.Customer;
 import com.atguigu.day12OOP.CustomerManagersys.Service.CustomerService;
-import com.atguigu.day13OOP.customermanage.util.CMUtility;
+import src.main.java.com.atguigu.day13OOP.customermanage.util.CMUtility;
 
 /**
    * 项目名称：domo

@@ -1,4 +1,4 @@
-﻿package com.atguigu.day12OOP.CustomerManagersys.utils;
+package com.atguigu.day12OOP.CustomerManagersys.utils.utils;
 
 
 /**
@@ -14,7 +14,6 @@ import java.util.*;
 public class CMUtility {
 	//静态属性。。。
     private static Scanner scanner = new Scanner(System.in);
-
     
     /**
      * 功能：读取键盘输入的一个菜单选项，值：1——5的范围

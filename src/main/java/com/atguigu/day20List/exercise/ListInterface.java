@@ -40,7 +40,7 @@ import org.junit.Test;
    * 创建时间2019年12月25日下午5:12:16
    * 类描述
  */
-public class ListInterface {
+public class ListInterface extends B implements A {
 	
 	/**
 	 * LinkedList API
@@ -74,9 +74,35 @@ public class ListInterface {
 		
 		System.out.println(list);
 		
+		float f = Float.parseFloat("12.1");
+		System.out.println(f);
 		
+		String s = ""+5;
+		System.out.println(s);
 		
+		Object o1 = true ? new Integer(1) : new Double(2.0);
+		System.out.println(o1);//
 		
+		Object o2;
+		if (true)
+		    o2 = new Integer(1);
+		else
+		    o2 = new Double(2.0);
+		System.out.println(o2);//
+		
+		Integer i = new Integer(1);
+	    Integer j = new Integer(1);
+	    System.out.println(i == j);
+
+	    Integer m = 1;
+	    Integer n = 1;
+	    System.out.println(m == n);//
+
+	    Integer x = 128;
+	    Integer y = 128;
+	    System.out.println(x == y);//
+
+
 	}
 	
 	/**
@@ -175,7 +201,7 @@ List subList(int fromIndex, int toIndex):返回从fromIndex到toIndex位置的�
 	@Test
 	public void arrayToCollection() {
 		String[] name = {"aa","bb","dd"};
-		List<String> asList = Arrays.asList(name);
+		String[] asList = name;
 		
 		for (String string : asList) {
 			System.out.println(string);
@@ -183,8 +209,59 @@ List subList(int fromIndex, int toIndex):返回从fromIndex到toIndex位置的�
 	}
 	
 
-	
+	public int addOne(final int x) {
+        // o = new Other();
+      return x + 1;
+    }
+
+	public static void main(String[] args) {
+		 ListInterface l =new ListInterface();
+		 l.pX();
+	}
+	 public void pX() {
+	        System.out.println(x);
+	    }
 
 	
-	
 }
+class Other {
+    public int i;
+}
+interface A {
+    int x = 0;
+}
+class B {
+    int y = 1;
+}
+
+
+class Ball implements Rollable {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public Ball(String name) {
+        this.name = name;
+    }
+
+    public void play() {
+    	Ball ball = new Ball("Football");
+        System.out.println(ball.getName());
+    }
+}
+
+interface Playable {
+    void play();
+}
+
+interface Bounceable {
+    void play();
+}
+
+interface Rollable extends Playable, Bounceable {
+    Ball ball = new Ball("PingPang");
+
+}
+

@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day25Thread;
+package com.atguigu.day25Thread;
 
 /**
  * 线程通信      wait(); notify();  notiftAll();
@@ -22,7 +22,7 @@ class MyThread  implements  Runnable{
                 notify();
 
                 if (number >= 1){
-                    System.out.println(Thread.currentThread().getName()+"===="+number);
+//                    System.out.println(Thread.currentThread().getName()+"===="+number);
                     number--;
                 }else{
                     return;
