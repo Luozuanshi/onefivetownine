@@ -18,7 +18,7 @@ public class SingletonTypeStatic {
 		//测试代码
 		
 		Singleton instance = Singleton.getInstance();
-//		Singleton.instance=null;
+		Singleton.instance=null;
 		Singleton instance1 = Singleton.getInstance();
 		
 		instance.name = "222232";

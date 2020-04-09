@@ -17,6 +17,7 @@ public class SingletonTypeStaticFinal {
 		
 		//测试代码
 		Singleton2 instance = Singleton2.getInstance();
+//		Singleton2.instance=null; 即使instance设置成public 的外部类也不能直接赋值修改
 		Singleton2 instance1 = Singleton2.getInstance();
 		
 		instance.name = "222232";
