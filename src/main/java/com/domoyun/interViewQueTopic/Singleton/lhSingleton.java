@@ -1,4 +1,4 @@
-package com.domoyun.Singleton;
+package com.domoyun.interViewQueTopic.Singleton;
 
 import org.junit.Test;
 
