@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 import org.junit.Test;
 
 
-import src.main.java.com.atguigu.day27Lambda.Employee;
+import com.atguigu.day27Lambda.Employee;
 
 /**
  	Stream到底是什么呢？

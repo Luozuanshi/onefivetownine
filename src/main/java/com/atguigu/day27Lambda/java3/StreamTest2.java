@@ -7,7 +7,7 @@ import java.util.function.Function;
 import org.junit.Test;
 
 
-import src.main.java.com.atguigu.day27Lambda.Employee;
+import com.atguigu.day27Lambda.Employee;
 
 /**
  * Stream中间操作

@@ -1,4 +1,4 @@
-package src.main.java.com.atguigu.day24Thread.ObjectIO;
+package com.atguigu.day24Thread.ObjectIO;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
