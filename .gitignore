@@ -1,12 +1,10 @@
 /target/
 /bin/
 /target-out/
-/onefivetownine.iml
 .class
-
 /classes/
 .project
-/classes/
-./idea
+.classpath
 /.settings/
+*.iml
 /.idea/

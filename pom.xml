@@ -3,6 +3,36 @@
   <groupId>com.domo.onefivetownine</groupId>
   <artifactId>domo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+    <!--父工程-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+    </parent>
+
+    <dependencies>
+        <!--web功能 起步包
+         注意：虽然是web工程，但不需要打war包，直接打jar就行
+        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--测试功能 起步包 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <!--<scope>test</scope>  作用域在test只能在maven - test工作区下使用@test注解-->
+        </dependency>
+        <!--热部署配置-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+    </dependencies>
+
+
    <build>
         <plugins>
             <plugin>
@@ -39,4 +69,5 @@
 
         </plugins>
     </build>
+
 </project>
