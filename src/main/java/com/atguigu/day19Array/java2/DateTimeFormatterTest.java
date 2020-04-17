@@ -1,11 +1,11 @@
 package com.atguigu.day19Array.java2;
 
+import org.junit.Test;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.time.temporal.TemporalAccessor;
-
-import org.junit.Test;
 
 public class DateTimeFormatterTest {
 

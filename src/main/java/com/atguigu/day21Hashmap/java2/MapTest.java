@@ -1,14 +1,12 @@
 package com.atguigu.day21Hashmap.java2;
 
+import org.junit.Test;
+
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Properties;
 import java.util.TreeMap;
-
-import org.junit.Test;
 
 public class MapTest {
 	

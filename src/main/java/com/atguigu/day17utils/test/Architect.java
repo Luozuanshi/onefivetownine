@@ -3,8 +3,6 @@
  */
 package com.atguigu.day17utils.test;
 
-import org.junit.Test;
-
 /**
    * 项目名称：domo
    *类名称：Architect

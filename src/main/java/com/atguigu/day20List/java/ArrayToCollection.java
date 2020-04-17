@@ -1,11 +1,9 @@
 package com.atguigu.day20List.java;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 public class ArrayToCollection {
 	

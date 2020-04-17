@@ -1,9 +1,9 @@
 package com.atguigu.day19Array.java;
 
+import org.junit.Test;
+
 import java.util.Calendar;
 import java.util.Date;
-
-import org.junit.Test;
 
 /**
  * Calendar ：日历类 (不用敲)

@@ -1,5 +1,7 @@
 package com.atguigu.day06Array;
-import java.util.*;
+
+import java.util.Scanner;
+
 /**
  * @Description:    java类作用描述
  * @Author:         pangluo

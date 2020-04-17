@@ -1,6 +1,7 @@
 package com.atguigu.day04;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Day04Work8{
     public static void main(String[] args){
         //

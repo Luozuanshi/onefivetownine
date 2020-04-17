@@ -1,9 +1,4 @@
 package src.main.java.com.atguigu.WorkExer;
-import org.omg.Messaging.SyncScopeHelper;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
 import java.util.Scanner;
 
@@ -32,7 +27,7 @@ enum Week{
     private int number;
     private String description;
 
-    private Week(int number,String description){
+    Week(int number, String description){
         this.number = number;
         this.description = description;
     }

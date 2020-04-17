@@ -1,14 +1,6 @@
 package com.atguigu.day17utils.team.service;
 
-import com.atguigu.day17utils.team.domain.Architect;
-import com.atguigu.day17utils.team.domain.Data;
-import com.atguigu.day17utils.team.domain.Designer;
-import com.atguigu.day17utils.team.domain.Employee;
-import com.atguigu.day17utils.team.domain.Equipment;
-import com.atguigu.day17utils.team.domain.NoteBook;
-import com.atguigu.day17utils.team.domain.PC;
-import com.atguigu.day17utils.team.domain.Printer;
-import com.atguigu.day17utils.team.domain.Programmer;
+import com.atguigu.day17utils.team.domain.*;
 
 /**
  * 用来管理公司所有的员工

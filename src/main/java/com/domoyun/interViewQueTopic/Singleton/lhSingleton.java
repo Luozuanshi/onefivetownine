@@ -37,6 +37,7 @@ public class lhSingleton {
             }
         };
 
+
         ExecutorService es = Executors.newFixedThreadPool(2);
         Future<Singleton5> f1 = es.submit(c);
         Future<Singleton5> f2 = es.submit(c);

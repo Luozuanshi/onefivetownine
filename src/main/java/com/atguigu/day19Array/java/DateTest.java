@@ -1,7 +1,5 @@
 package com.atguigu.day19Array.java;
 
-import java.sql.Date;
-
 import org.junit.Test;
 
 class Person{

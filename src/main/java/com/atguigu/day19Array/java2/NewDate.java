@@ -1,11 +1,11 @@
 package com.atguigu.day19Array.java2;
 
+import org.junit.Test;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Date;
-
-import org.junit.Test;
 
 /**
 	jdk1.8新日期时间API（了解）

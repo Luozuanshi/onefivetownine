@@ -1,9 +1,9 @@
 package com.atguigu.day20List.java3;
 
+import org.junit.Test;
+
 import java.util.Comparator;
 import java.util.TreeSet;
-
-import org.junit.Test;
 
 /**
  	TreeSet : 可以对添加的元素进行排序。

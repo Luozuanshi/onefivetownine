@@ -1,9 +1,9 @@
 package com.atguigu.day27Lambda.java;
 
+import org.junit.Test;
+
 import java.util.Comparator;
 import java.util.function.Consumer;
-
-import org.junit.Test;
 
 /**
  * Lambda六种格式

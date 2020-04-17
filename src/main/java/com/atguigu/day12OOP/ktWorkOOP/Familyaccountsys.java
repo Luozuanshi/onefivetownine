@@ -3,8 +3,6 @@
  */
 package com.atguigu.day12OOP.ktWorkOOP;
 
-import java.util.Scanner;
-
 /**
    * 项目名称：domo
    *类名称：Familyaccountsys

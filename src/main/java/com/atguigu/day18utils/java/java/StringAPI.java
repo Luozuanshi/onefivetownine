@@ -1,8 +1,8 @@
 package com.atguigu.day18utils.java.java;
 
-import java.util.Arrays;
-
 import org.junit.Test;
+
+import java.util.Arrays;
 
 public class StringAPI {
 	

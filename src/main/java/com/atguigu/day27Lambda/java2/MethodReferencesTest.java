@@ -1,11 +1,10 @@
 package com.atguigu.day27Lambda.java2;
 
+import org.junit.Test;
+
 import java.io.PrintStream;
 import java.util.Comparator;
 import java.util.function.Consumer;
-import java.util.function.Function;
-
-import org.junit.Test;
 
 /**
  	1.当要传递给Lambda体的操作，已经有实现的方法了，可以使用方法引用！

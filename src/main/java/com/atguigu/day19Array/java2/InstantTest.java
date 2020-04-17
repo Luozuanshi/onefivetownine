@@ -1,10 +1,10 @@
 package com.atguigu.day19Array.java2;
 
+import org.junit.Test;
+
 import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
-
-import org.junit.Test;
 
 public class InstantTest {
 

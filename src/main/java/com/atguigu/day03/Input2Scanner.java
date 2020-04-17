@@ -1,6 +1,7 @@
 package com.atguigu.day03;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Input2Scanner{
     public static void main(String[] args){
         //�ӿ���̨�����û����յ��û���Ϣ[����,����,нˮ]

@@ -1,6 +1,7 @@
 package com.atguigu.day04;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Day04Work2{
     public static void main(String[] args){
         /*1.输出格式------------------------------小小计算器-------------------------

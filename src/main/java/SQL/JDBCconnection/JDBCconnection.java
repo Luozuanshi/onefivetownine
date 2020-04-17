@@ -13,22 +13,22 @@ public class JDBCconnection {
 
         ResultSet resultSet = preparedStatement.executeQuery();
 
-        while(resultSet.next()){
+        while (resultSet.next()) {
             String string = resultSet.getString(1);
             System.out.println(string);
         }
 
-        JDBCutils.close(connection,preparedStatement);
+        JDBCutils.close(connection, preparedStatement);
     }
 
     @Test
     public void update() throws SQLException {
         Connection connection = JDBCutils.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement("UPDATE person SET sname=(?)");
-        preparedStatement.setString(1,"fj");
+        preparedStatement.setString(1, "fj");
         preparedStatement.executeUpdate();
 
-        JDBCutils.close(connection,preparedStatement);
+        JDBCutils.close(connection, preparedStatement);
 
     }
 
@@ -36,9 +36,9 @@ public class JDBCconnection {
     public void delete() throws SQLException {
         Connection connection = JDBCutils.getConnection();
         PreparedStatement preparedStatement = connection.prepareStatement("DELETE  FROM person WHERE sname=(?)");
-        preparedStatement.setString(1,"詹丹");
+        preparedStatement.setString(1, "詹丹");
         preparedStatement.executeUpdate();
-        JDBCutils.close(connection,preparedStatement);
+        JDBCutils.close(connection, preparedStatement);
 
     }
 
@@ -52,10 +52,10 @@ public class JDBCconnection {
         Connection connection = JDBCutils.getConnection();
         //预编译，获取可以操作数据库的对象
         PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO person(sname) VALUES(?)");
-        preparedStatement.setString(1,"詹丹");
+        preparedStatement.setString(1, "詹丹");
         preparedStatement.executeUpdate();
 
-        JDBCutils.close(connection,preparedStatement);
+        JDBCutils.close(connection, preparedStatement);
 
     }
 

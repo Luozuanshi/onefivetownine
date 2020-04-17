@@ -1,6 +1,7 @@
 package com.atguigu.day02;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Day02Work6{
     public static void main(String[] args){
         //�ж�һ��������ż������������if-else

@@ -1,11 +1,11 @@
 package com.atguigu.day26reflect.java2;
 
+import org.junit.Test;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-
-import org.junit.Test;
 
 public class ReflectionTest {
 

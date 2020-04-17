@@ -1,6 +1,7 @@
 package com.atguigu.day09OOP;
 
 import java.util.Calendar;
+
 /**
  * @Description: 请编写一个类 koradji (巫师的意思)
  * 为类编写如下功能
@@ -14,18 +15,17 @@ import java.util.Calendar;
  * 天秤座 	9月23日-10月22日	天蝎座 	10月23日-11月21日	射手座     	11月22日-12月21日
  * 摩羯座	12月22日-1月19日	水瓶座 	1月20日-2月18日 	    双鱼座 	    2月19日-3月20日
  * ················································································
- * @Author:         pangluo
- * @CreateDate:     2019年12月10日21:14:20
- * @UpdateUser:     pangluo
- * @UpdateDate:     2019年12月10日21:14:20
- * @UpdateRemark:   修改内容
- * @Version:        1.0
+ * @Author: pangluo
+ * @CreateDate: 2019年12月10日21:14:20
+ * @UpdateUser: pangluo
+ * @UpdateDate: 2019年12月10日21:14:20
+ * @UpdateRemark: 修改内容
+ * @Version: 1.0
  * 总结：可以复杂的事务封装成对象提供对应的属性和方法
- * 	 调用对象的对应方法可以完成特定的事情
- * 	如果一个对象处理不了，可以创建改对象的数组
- * 	利用遍历对象数组完成特定的功能
+ * 调用对象的对应方法可以完成特定的事情
+ * 如果一个对象处理不了，可以创建改对象的数组
+ * 利用遍历对象数组完成特定的功能
  */
-import java.util.Scanner;
 
 public class day09Work04 {
     public static void main(String[] args){
@@ -79,7 +79,7 @@ class Koradji{
 	
 	public String dayOfWeek(int year,int month,int day){
 		c.set(year, month, day);
-		return "星期" + (c.get(c.DAY_OF_WEEK)+3)%7;
+		return "星期" + (c.get(Calendar.DAY_OF_WEEK)+3)%7;
 	}
 	
 	//输出对象计算过的人数
@@ -107,8 +107,7 @@ class Constellation{
 
 	//输入的年月是否在当前区间
 	public boolean isThis(int month , int day) {
-		if(month == leftMonth && day >= leftDay || month==rightMonth && day <= rightDay) return true;
-		return false;
-	}
+        return month == leftMonth && day >= leftDay || month == rightMonth && day <= rightDay;
+    }
 	
 }

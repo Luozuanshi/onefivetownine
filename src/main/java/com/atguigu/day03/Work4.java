@@ -1,6 +1,7 @@
 package com.atguigu.day03;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Work4{
     public static void main(String[] args){
         //【选作】1、开发一款软件，根据公式（身高-108）*2=标准体重，可以有10斤左右的浮动。来观察测试者体重是否合适。

@@ -1,12 +1,12 @@
 package com.atguigu.day21Hashmap.java;
 
+import org.junit.Test;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
-import org.junit.Test;
 
 /**
 	Map API

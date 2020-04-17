@@ -1,10 +1,10 @@
 package com.atguigu.day20List.java2;
 
+import org.junit.Test;
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
-
-import org.junit.Test;
 
 /**
  	Collection子接口之 ： Set

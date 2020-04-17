@@ -1,6 +1,5 @@
 package com.atguigu.day03;
 
-import java.util.*;
 public class Work1{
     public static void main(String[] args){
         //2、判断一个年份是否为闰年 ★ [（1）可以被4整除，并且不能被100整除 （2） 能被400整数]

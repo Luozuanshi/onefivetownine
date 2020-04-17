@@ -1,6 +1,7 @@
-package src.main.java.com.atguigu.WorkExer;
+package com.atguigu.WorkExer;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 /**
  * 17、请编写代码把一个GBK的文本文件内容读取后存储到一个UTF-8的文本文件中。
@@ -11,7 +12,7 @@ public class IOExer {
         InputStreamReader isr = new InputStreamReader(fis,"GBK");
 
         FileOutputStream fos = new FileOutputStream("bbb.txt");
-        OutputStreamWriter osw = new OutputStreamWriter(fos,"UTF-8");
+        OutputStreamWriter osw = new OutputStreamWriter(fos, StandardCharsets.UTF_8);
 
         char[] c = new char[1024];
         int len=0;

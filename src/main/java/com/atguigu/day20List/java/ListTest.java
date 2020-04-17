@@ -1,10 +1,10 @@
 package com.atguigu.day20List.java;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
-import org.junit.Test;
 
 /**
  *  Collection子接口之：List

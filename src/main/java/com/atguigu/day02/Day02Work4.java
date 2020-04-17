@@ -1,5 +1,7 @@
 package com.atguigu.day02;
 
+import java.util.Scanner;
+
 /**
     һ��ʵ�����������ļӼ��˳��Լ�ȡ���㷨
 
@@ -26,8 +28,6 @@ package com.atguigu.day02;
 
 10 / 5 = 2
  */
-
-import java.util.*;
 
 public class Day02Work4{
     public static void main(String[] args){

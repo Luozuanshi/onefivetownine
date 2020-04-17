@@ -1,8 +1,8 @@
 package com.atguigu.day18utils.java.java2;
 
-import java.util.Arrays;
-
 import org.junit.Test;
+
+import java.util.Arrays;
 
 /**
  	字符串相关的类：

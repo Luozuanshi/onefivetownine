@@ -1,10 +1,10 @@
 package com.atguigu.day19Array.java3;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
-
-import org.junit.Test;
 
 public class IteratorTest {
 	

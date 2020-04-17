@@ -1,13 +1,12 @@
 package SQL.JDBCconnection.java;
 
+import org.junit.Test;
+
 import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.util.Properties;
-
-import org.junit.Test;
 
 /**
  	JDBC : 是java用来操作数据库的一组规范（接口）

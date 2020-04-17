@@ -1,14 +1,12 @@
 package com.atguigu.day26reflect.java3;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import org.junit.Test;
+
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Properties;
-
-import org.junit.Test;
 
 public class ClassLoaderTest {
 	

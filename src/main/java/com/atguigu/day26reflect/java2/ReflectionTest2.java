@@ -1,9 +1,9 @@
 package com.atguigu.day26reflect.java2;
 
+import org.junit.Test;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
-
-import org.junit.Test;
 
 public class ReflectionTest2 {
 

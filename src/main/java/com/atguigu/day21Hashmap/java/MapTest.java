@@ -1,10 +1,9 @@
 package com.atguigu.day21Hashmap.java;
 
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.Map;
-
-import org.junit.Test;
 
 /**
 	Map（双列集合）:

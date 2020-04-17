@@ -1,9 +1,10 @@
 package com.atguigu.day19Array.java;
+
+import org.junit.Test;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import org.junit.Test;
 /**
  * SimpleDateFormat : 用来格式化日期和时间
  * 

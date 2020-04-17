@@ -1,10 +1,9 @@
 package com.atguigu.day17utils.team.service.test;
 
-import org.junit.Test;
-
 import com.atguigu.day17utils.team.domain.Employee;
 import com.atguigu.day17utils.team.domain.Programmer;
 import com.atguigu.day17utils.team.service.NameListService;
+import org.junit.Test;
 
 public class NameListServiceTest {
 

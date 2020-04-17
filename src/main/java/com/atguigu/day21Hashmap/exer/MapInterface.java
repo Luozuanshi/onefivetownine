@@ -3,13 +3,13 @@
  */
 package com.atguigu.day21Hashmap.exer;
 
+import org.junit.Test;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-
-import org.junit.Test;
 
 /**
    * 创建时间2019年12月27日下午5:55:15

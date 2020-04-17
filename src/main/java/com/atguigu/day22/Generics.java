@@ -3,9 +3,9 @@
  */
 package com.atguigu.day22;
 
-import java.util.ArrayList;
-
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 /**
    * 项目名称：domo

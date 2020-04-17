@@ -3,14 +3,13 @@
  */
 package com.atguigu.day21Hashmap.exer;
 
+import org.junit.Test;
+
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Properties;
 import java.util.TreeMap;
-
-import org.junit.Test;
 
 /**
    * 创建时间2019年12月27日下午7:48:12

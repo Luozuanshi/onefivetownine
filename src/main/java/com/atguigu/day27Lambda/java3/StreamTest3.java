@@ -1,14 +1,13 @@
 package com.atguigu.day27Lambda.java3;
 
+import com.atguigu.day27Lambda.java.Employee;
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
-
-import com.atguigu.day27Lambda.java.Employee;
-import org.junit.Test;
 
 
 /**

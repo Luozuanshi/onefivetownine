@@ -1,11 +1,10 @@
 package com.atguigu.day21Hashmap.java2;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-
-import org.junit.Test;
 
 /**
  * 

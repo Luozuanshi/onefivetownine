@@ -1,7 +1,7 @@
 package com.domo.BallGame;
 
+import javax.swing.*;
 import java.awt.*;
-import javax.swing.JFrame;
 
 public class BallGame extends JFrame{
 	 Image ball = Toolkit.getDefaultToolkit().getImage("/src/main/resources/image/ball.png");

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a9c0afc-2726-48bd-ba45-b17a5047b3bf" name="Default Changelist" comment="Spring支持的常用数据库事务传播属性和事务隔离级">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/JDBCconnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/JDBCconnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/java/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/java/JDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/java/JDBCTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/java/JDBCTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/java/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQL/JDBCconnection/java/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/WorkExer/EnumExer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/WorkExer/EnumExer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/WorkExer/IOExer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/WorkExer/IOExer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day02/Day02Work4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day02/Day02Work4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day02/Day02Work6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day02/Day02Work6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Day03Work3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Day03Work3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Day03Work5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Day03Work5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Day03Work6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Day03Work6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Input2Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Input2Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day03/Work4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Day04Work8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/ForExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/ForExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Ifelse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day04/Ifelse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day05/Day05Work5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day06Array/Workday03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day06Array/Workday03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day09OOP/day09Work04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day09OOP/day09Work04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day12OOP/CustomerManagersys/utils/utils/CMUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day12OOP/CustomerManagersys/utils/utils/CMUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day12OOP/CustomerManagersys/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day12OOP/CustomerManagersys/view/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day12OOP/ktWorkOOP/Familyaccountsys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day12OOP/ktWorkOOP/Familyaccountsys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day13OOP/customermanage/util/CMUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day13OOP/customermanage/util/CMUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day17utils/team/service/NameListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day17utils/team/service/NameListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day17utils/team/service/test/NameListServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day17utils/team/service/test/NameListServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day17utils/test/Architect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day17utils/test/Architect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day18utils/java/java/StringAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day18utils/java/java/StringAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day18utils/java/java2/StringBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day18utils/java/java2/StringBufferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/exer/StringExer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/exer/StringExer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java/CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java/CalendarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java/SimpleDateFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java/SimpleDateFormatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/DateTimeFormatterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/DateTimeFormatterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/InstantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/InstantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/NewDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/NewDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java2/Other.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java3/CollectionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java3/CollectionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java3/ForeachTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java3/ForeachTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java3/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day19Array/java3/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/exercise/ListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/exercise/ListInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/exercise/SetInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/exercise/SetInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java/ArrayToCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java/ArrayToCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java2/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java2/SetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java3/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day20List/java3/TreeSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/exer/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/exer/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/exer/MapImpClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/exer/MapImpClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/exer/MapInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/exer/MapInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java/MapAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java/MapAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java2/CollectionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java2/CollectionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java2/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day21Hashmap/java2/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day22/BufferInputSteam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day22/BufferInputSteam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day22/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day22/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day22/InputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day22/InputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day24Thread/ObjectIO/ObjectIOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day24Thread/ObjectIO/ObjectIOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day26reflect/java2/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day26reflect/java2/ReflectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day26reflect/java2/ReflectionTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day26reflect/java2/ReflectionTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day26reflect/java3/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day26reflect/java3/ClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/StreamTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/StreamTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java/LambdaTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java/LambdaTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java/LambdaTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java/LambdaTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java2/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java2/FunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java2/MethodReferencesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java2/MethodReferencesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java2/MethodReferencesTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java2/MethodReferencesTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java3/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java3/StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java3/StreamTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java3/StreamTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java3/StreamTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/day27Lambda/java3/StreamTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domo/BallGame/BallGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domo/BallGame/BallGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domo/OOP/base/PackageAndImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domo/OOP/base/PackageAndImport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic/Singleton/lhSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic/Singleton/lhSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic/Spring/BeanScope/config/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic/Spring/BeanScope/config/beans.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/java/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YRHNVheUeDRHk3b9SogvBBeYXs" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic/Spring/TransavtionPropagationAndIsolation/tx/lib/druid-1.1.10.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41216993" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\BeanScope\config" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\JS" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\BeanScope" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\TransavtionPropagationAndIsolation\tx\lib" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\TransavtionPropagationAndIsolation\tx\config" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\Transavtiona propagation - isolation\lib" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\Transavtiona propagation - isolation" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TxTest.testCashier">
+    <configuration name="BeanScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onefivetownine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.BeanScope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope.BeanScope" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScope.testBook (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onefivetownine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.BeanScope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope.BeanScope" />
+      <option name="METHOD_NAME" value="testBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScope.testBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onefivetownine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.BeanScope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope.BeanScope" />
+      <option name="METHOD_NAME" value="testBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onefivetownine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.TxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxTest.testCashier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onefivetownine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.TxTest" />
+      <option name="METHOD_NAME" value="testCashier" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TxTest.testCashier" />
+        <item itemvalue="JUnit.TxTest" />
+        <item itemvalue="JUnit.BeanScope.testBook" />
+        <item itemvalue="JUnit.BeanScope" />
+        <item itemvalue="JUnit.BeanScope.testBook (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a9c0afc-2726-48bd-ba45-b17a5047b3bf" name="Default Changelist" comment="" />
+      <created>1582898447833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582898447833</updated>
+      <workItem from="1582898457765" duration="884000" />
+      <workItem from="1582899457119" duration="115000" />
+      <workItem from="1583540012718" duration="736000" />
+      <workItem from="1583546101384" duration="2135000" />
+      <workItem from="1585967392835" duration="5272000" />
+      <workItem from="1586305295603" duration="291000" />
+      <workItem from="1586305652341" duration="439000" />
+      <workItem from="1586328484846" duration="2824000" />
+      <workItem from="1586402142377" duration="10557000" />
+      <workItem from="1586701647642" duration="4165000" />
+      <workItem from="1586738022631" duration="730000" />
+      <workItem from="1586856795471" duration="3659000" />
+      <workItem from="1586865077121" duration="7092000" />
+      <workItem from="1586915628455" duration="121000" />
+      <workItem from="1586952764943" duration="8224000" />
+      <workItem from="1586962465891" duration="1724000" />
+      <workItem from="1587038106675" duration="4144000" />
+      <workItem from="1587043740720" duration="4837000" />
+    </task>
+    <task id="LOCAL-00001" summary="数组队列">
+      <created>1585970145960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585970145960</updated>
+    </task>
+    <task id="LOCAL-00002" summary="OOP家庭记账小软件&#10;枚举 - 异常 - List集合 - 多线程 - 反射 - lambda表达式   SQL  JS">
+      <created>1585971085729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585971085729</updated>
+    </task>
+    <task id="LOCAL-00003" summary="自增自减 单例">
+      <created>1586419311397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586419311397</updated>
+    </task>
+    <task id="LOCAL-00004" summary="单例">
+      <created>1586431617194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586431617194</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Java基础阶段所有代码">
+      <created>1586866381312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586866381312</updated>
+    </task>
+    <task id="LOCAL-00006" summary="懒汉式单例设计模式&#10;饿汉式单例设计模式">
+      <created>1586868110106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586868110106</updated>
+    </task>
+    <task id="LOCAL-00007" summary="类初始化和实例初始化">
+      <created>1586868204667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586868204667</updated>
+    </task>
+    <task id="LOCAL-00008" summary="递归和循环.">
+      <created>1586876068407</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586876068408</updated>
+    </task>
+    <task id="LOCAL-00009" summary="局部变量和成员变量">
+      <created>1586953824489</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586953824489</updated>
+    </task>
+    <task id="LOCAL-00010" summary="collating of data(整理工程)">
+      <created>1586963119824</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586963119824</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Spring支持的常用数据库事务传播属性和事务隔离级">
+      <created>1587047626690</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587047626690</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="练习代码提交" />
+    <MESSAGE value="数组队列" />
+    <MESSAGE value="OOP家庭记账小软件&#10;枚举 - 异常 - List集合 - 多线程 - 反射 - lambda表达式   SQL  JS" />
+    <MESSAGE value="自增自减 单例" />
+    <MESSAGE value="单例" />
+    <MESSAGE value="OOP家庭记账小软件&#10;枚举" />
+    <MESSAGE value="Java基础阶段所有代码" />
+    <MESSAGE value="懒汉式单例设计模式&#10;饿汉式单例设计模式" />
+    <MESSAGE value="类初始化和实例初始化" />
+    <MESSAGE value="递归和循环." />
+    <MESSAGE value="局部变量和成员变量" />
+    <MESSAGE value="collating of data(整理工程)" />
+    <MESSAGE value="Spring支持的常用数据库事务传播属性和事务隔离级" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring支持的常用数据库事务传播属性和事务隔离级" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/domoyun/designmode/singleton/SingletonTypeStatic.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic/RecursionAndLoop/RecursionAndLoop.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

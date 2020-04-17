@@ -1,6 +1,5 @@
 package com.atguigu.day03;
 
-import java.util.*;
 public class Work{
     public static void main(String[] args){
         //1、实现判断一个整数，属于哪个范围：大于0；小于0；等于0

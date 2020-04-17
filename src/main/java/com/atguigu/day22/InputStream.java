@@ -3,12 +3,12 @@
  */
 package com.atguigu.day22;
 
+import org.junit.Test;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
-import org.junit.Test;
 
 /**
    * 项目名称：domo

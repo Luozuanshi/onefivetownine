@@ -1,16 +1,11 @@
 package com.atguigu.day27Lambda.java3;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.function.Consumer;
-import java.util.function.Supplier;
-import java.util.function.UnaryOperator;
-import java.util.stream.Stream;
-
+import com.atguigu.day27Lambda.Employee;
 import org.junit.Test;
 
-
-import com.atguigu.day27Lambda.Employee;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.Stream;
 
 /**
  	Stream到底是什么呢？

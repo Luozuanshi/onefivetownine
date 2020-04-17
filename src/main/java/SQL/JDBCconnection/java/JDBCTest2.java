@@ -1,13 +1,12 @@
 package SQL.JDBCconnection.java;
 
+import org.junit.Test;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.junit.Test;
 
 /**
 	通过Connection的连接对象操作数据库

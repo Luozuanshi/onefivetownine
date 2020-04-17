@@ -1,11 +1,12 @@
 package com.atguigu.day05;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Day05Work3{
     public static void main(String[] args){
         //1. 循环打印输入的月份的天数。 【使用continue实现】
         //–要有判断输入的月份是否错误的语句 
-        int month[] = {1,2,3,4,5,6,7,8,9,10,11,12};
+        int[] month = {1,2,3,4,5,6,7,8,9,10,11,12};
         Scanner in =new Scanner(System.in);
 
         while(true){

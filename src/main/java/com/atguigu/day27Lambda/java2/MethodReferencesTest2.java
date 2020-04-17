@@ -1,7 +1,8 @@
 package com.atguigu.day27Lambda.java2;
-import java.util.function.Function;
 
 import org.junit.Test;
+
+import java.util.function.Function;
 
 public class MethodReferencesTest2 {
 	

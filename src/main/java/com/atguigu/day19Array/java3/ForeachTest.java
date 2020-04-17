@@ -1,10 +1,10 @@
 package com.atguigu.day19Array.java3;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-
-import org.junit.Test;
 
 /**
  * 增强for循环

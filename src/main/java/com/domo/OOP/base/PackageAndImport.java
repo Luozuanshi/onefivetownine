@@ -4,11 +4,11 @@
  */
 package com.domo.OOP.base;
 
+import com.domo.ProcessControl.Nestedloop;
+
 import java.util.Date;
 
-import com.domo.ProcessControl.*;//导入该包下所有的类。会降低编译速度，但不会降低运行速度。
-import static java.lang.Math.*;//导入Math类的所有静态属性
-import static java.lang.Math.PI;//导入Math类的PI属性
+import static java.lang.Math.PI;
 /**
    * 项目名称：domo
    *类名称：PackageAndImport

@@ -1,6 +1,7 @@
 package com.atguigu.day04;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Day04Work4{
     public static void main(String[] args){
         //输入年月日，判断该日是当年的第几天
@@ -30,7 +31,7 @@ public class Day04Work4{
                         days = days + 31;
                         break;
                     case 2:
-                        if((years % 4 == 0) && (years % 100 != 0) || years % 100 == 0 ){
+                        if((years % 4 == 0) || years % 100 == 0){
                             days = days + 29;
                             System.out.println(days);
                         }else{

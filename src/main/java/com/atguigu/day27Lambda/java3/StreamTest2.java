@@ -1,13 +1,10 @@
 package com.atguigu.day27Lambda.java3;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.function.Function;
-
+import com.atguigu.day27Lambda.Employee;
 import org.junit.Test;
 
-
-import com.atguigu.day27Lambda.Employee;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Stream中间操作

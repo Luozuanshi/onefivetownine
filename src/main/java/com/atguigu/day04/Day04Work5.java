@@ -1,6 +1,5 @@
 package com.atguigu.day04;
 
-import java.util.*;
 public class Day04Work5{
     public static void main(String[] args){
       // 4：求出1-1/2+1/3-1/4…..1/100的和 [动脑]

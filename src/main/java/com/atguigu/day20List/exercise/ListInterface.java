@@ -24,13 +24,11 @@
 	 */
 package com.atguigu.day20List.exercise;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.LinkedList;
-import java.util.List;
+    import org.junit.Test;
 
-import org.junit.Test;
+    import java.util.ArrayList;
+    import java.util.LinkedList;
+    import java.util.List;
 
 /**
    * 项目名称：domo

@@ -1,6 +1,5 @@
 package com.atguigu.day04;
 
-import java.util.*;
 public class Day04Work{
     public static void main(String[] args){
         //1.���1-100֮��Ĳ��ܱ�5����������ÿ5��һ�С�
