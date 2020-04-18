@@ -6,16 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="onefivetownine" />
+        <module name="jpa-day01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DSADASD" target="1.8" />
+      <module name="JPA" target="1.8" />
+      <module name="jpa-day01" target="1.8" />
       <module name="onefivetownine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="onefivetownine" options="-parameters" />
+      <module name="DSADASD" options="-parameters" />
+      <module name="JPA" options="" />
+      <module name="jpa-day01" options="" />
+      <module name="onefivetownine" options="" />
     </option>
   </component>
 </project>
