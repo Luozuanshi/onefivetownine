@@ -1,9 +1,2 @@
 /target/
-/bin/
-/target-out/
-.class
-/classes/
-.project
-.classpath
-/.settings/
-*.iml
+target
