@@ -1,13 +1,11 @@
-package com.domoyun.test;
+package com.domoyun.domain.test;
 
-import com.domoyun.domain.Customer;
-import com.domoyun.utils.JpaUtils;
+import com.domoyun.domain.domain.Customer;
+import com.domoyun.domain.utils.JpaUtils;
 import org.junit.Test;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
 
 public class JpaTest {
 

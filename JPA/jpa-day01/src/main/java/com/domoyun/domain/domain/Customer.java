@@ -1,4 +1,4 @@
-package com.domoyun.domain;
+package com.domoyun.domain.domain;
 
 import javax.persistence.*;
 

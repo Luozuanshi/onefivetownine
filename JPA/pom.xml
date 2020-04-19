@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>jpa-day01</module>
+        <module>springdata-jpa-day02</module>
     </modules>
 
 

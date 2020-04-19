@@ -1,4 +1,4 @@
-package com.domoyun.utils;
+package com.domoyun.domain.utils;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
