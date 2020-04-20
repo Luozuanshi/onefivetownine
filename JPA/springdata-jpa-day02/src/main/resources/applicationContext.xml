@@ -52,7 +52,7 @@
     <!--4.配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
-        
+
     </bean>
 
     <!-- 5.声明式事务 -->
