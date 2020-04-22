@@ -2,10 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis_plus" />
+        <module name="springdata-jpa-day02" />
         <module name="jpa-day01" />
       </profile>
     </annotationProcessing>
@@ -13,7 +16,9 @@
       <module name="DSADASD" target="1.8" />
       <module name="JPA" target="1.8" />
       <module name="jpa-day01" target="1.8" />
+      <module name="mybatis_plus" target="1.8" />
       <module name="onefivetownine" target="1.8" />
+      <module name="springdata-jpa-day02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +26,7 @@
       <module name="DSADASD" options="-parameters" />
       <module name="JPA" options="" />
       <module name="jpa-day01" options="" />
+      <module name="mybatis_plus" options="-parameters" />
       <module name="onefivetownine" options="" />
     </option>
   </component>

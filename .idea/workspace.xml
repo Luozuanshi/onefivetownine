@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a9c0afc-2726-48bd-ba45-b17a5047b3bf" name="Default Changelist" comment="项目整理">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="7a9c0afc-2726-48bd-ba45-b17a5047b3bf" name="Default Changelist" comment="spring data JPA 命名规则方式查询  JPQL方式查询 SQL方式查询">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/mybatis_plus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/sql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/src/main/java/com/domoyun/mybatis_plus/MybatisPlusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/src/main/java/com/domoyun/mybatis_plus/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/src/main/java/com/domoyun/mybatis_plus/handler/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/src/main/java/com/domoyun/mybatis_plus/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_plus/src/test/java/com/domoyun/mybatis_plus/MybatisPlusApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DataStructure/ArrayQueue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DataStructureAndAlgorithm/ArrayQueue/ArrayQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DataStructure/SparseArray/SparseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DataStructureAndAlgorithm/SparseArray/SparseArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +99,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -64,30 +130,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/JPA/jpa-day01/src/main/java/com/domoyun" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JPA/jpa-day01" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic" />
+    <property name="last_opened_file_path" value="F:/尚硅谷/第四阶段美年旅游/代码/第四天/mq" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41216993" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\TransavtionPropagationAndIsolation\tx\lib" />
-      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\TransavtionPropagationAndIsolation\tx\config" />
-      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\Transavtiona propagation - isolation\lib" />
-      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\Transavtiona propagation - isolation" />
-      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\TransavtionPropagationAndIsolation\tx" />
       <recent name="D:\programming\ideaworkspace\onefivetownine\JPA\jpa-day01\src\main\resources\METE-INF" />
       <recent name="D:\programming\ideaworkspace\onefivetownine\src" />
       <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\BeanScope\config" />
       <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\JS" />
-      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\BeanScope" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programming\ideaworkspace\onefivetownine\JPA\springdata-jpa-day02" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\JPA\jpa-day01" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\TransavtionPropagationAndIsolation\tx\lib" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\TransavtionPropagationAndIsolation\tx\config" />
+      <recent name="D:\programming\ideaworkspace\onefivetownine\src\main\java\com\domoyun\interViewQueTopic\Spring\Transavtiona propagation - isolation\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,92 +168,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JpaTest.save">
-    <configuration name="BeanScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onefivetownine" />
+  <component name="RunManager" selected="JUnit.MybatisPlusApplicationTests.testUpdateById">
+    <configuration name="JpqlTest.testFindByCustNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata-jpa-day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.BeanScope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope" />
-      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope.BeanScope" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanScope.testBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onefivetownine" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.BeanScope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope" />
-      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.BeanScope.BeanScope" />
-      <option name="METHOD_NAME" value="testBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpaTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-day01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.domoyun.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.domoyun.test" />
-      <option name="MAIN_CLASS_NAME" value="com.domoyun.test.JpaTest" />
-      <option name="METHOD_NAME" value="save" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testFindByCustNameLike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onefivetownine" />
+    <configuration name="JpqlTest.testFindByCustNameLikeAndCustIndustry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdata-jpa-day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.*" />
+          <option name="PATTERN" value="com.domoyun.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation" />
-      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.TxTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.domoyun.test" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testFindByCustNameLikeAndCustIndustry" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TxTest.testCashier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onefivetownine" />
+    <configuration name="MybatisPlusApplicationTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.*" />
+          <option name="PATTERN" value="com.domoyun.mybatis_plus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation" />
-      <option name="MAIN_CLASS_NAME" value="com.domoyun.interViewQueTopic.Spring.TransavtionPropagationAndIsolation.TxTest" />
-      <option name="METHOD_NAME" value="testCashier" />
+      <option name="PACKAGE_NAME" value="com.domoyun.mybatis_plus" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.mybatis_plus.MybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusApplicationTests.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.domoyun.mybatis_plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.domoyun.mybatis_plus" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.mybatis_plus.MybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="testSelectList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusApplicationTests.testUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.domoyun.mybatis_plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.domoyun.mybatis_plus" />
+      <option name="MAIN_CLASS_NAME" value="com.domoyun.mybatis_plus.MybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="testUpdateById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis_plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.domoyun.mybatis_plus.MybatisPlusApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaTest.save" />
-        <item itemvalue="JUnit.TxTest.testCashier" />
-        <item itemvalue="JUnit.TxTest" />
-        <item itemvalue="JUnit.BeanScope.testBook" />
-        <item itemvalue="JUnit.BeanScope" />
+        <item itemvalue="JUnit.MybatisPlusApplicationTests.testUpdateById" />
+        <item itemvalue="JUnit.MybatisPlusApplicationTests.testInsert" />
+        <item itemvalue="JUnit.MybatisPlusApplicationTests.testSelectList" />
+        <item itemvalue="JUnit.JpqlTest.testFindByCustNameLikeAndCustIndustry" />
+        <item itemvalue="JUnit.JpqlTest.testFindByCustNameLike" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +295,13 @@
       <workItem from="1587038106675" duration="4144000" />
       <workItem from="1587043740720" duration="4837000" />
       <workItem from="1587127670145" duration="11285000" />
-      <workItem from="1587219769667" duration="4199000" />
+      <workItem from="1587219769667" duration="6425000" />
+      <workItem from="1587264123703" duration="21109000" />
+      <workItem from="1587341821703" duration="837000" />
+      <workItem from="1587374020033" duration="11364000" />
+      <workItem from="1587524764260" duration="592000" />
+      <workItem from="1587530691834" duration="8598000" />
+      <workItem from="1587559976824" duration="8476000" />
     </task>
     <task id="LOCAL-00001" summary="数组队列">
       <created>1585970145960</created>
@@ -306,7 +387,35 @@
       <option name="project" value="LOCAL" />
       <updated>1587128109337</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="JPA 环境搭建 - insert第一条数据">
+      <created>1587224164344</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587224164344</updated>
+    </task>
+    <task id="LOCAL-00014" summary="JPA 增删改查">
+      <created>1587284440315</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587284440315</updated>
+    </task>
+    <task id="LOCAL-00015" summary="spring data jpa 环境搭建 增删改查">
+      <created>1587305723097</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587305723097</updated>
+    </task>
+    <task id="LOCAL-00016" summary="spring data JPA 命名规则方式查询  JPQL方式查询 SQL方式查询">
+      <created>1587395343899</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587395343899</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,20 +450,78 @@
     <MESSAGE value="collating of data(整理工程)" />
     <MESSAGE value="Spring支持的常用数据库事务传播属性和事务隔离级" />
     <MESSAGE value="项目整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目整理" />
+    <MESSAGE value="JPA 环境搭建 - insert第一条数据" />
+    <MESSAGE value="JPA 增删改查" />
+    <MESSAGE value="spring data jpa 环境搭建 增删改查" />
+    <MESSAGE value="spring data JPA 命名规则方式查询  JPQL方式查询 SQL方式查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring data JPA 命名规则方式查询  JPQL方式查询 SQL方式查询" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/domoyun/designmode/singleton/SingletonTypeStatic.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/domoyun/interViewQueTopic/RecursionAndLoop/RecursionAndLoop.java</url>
           <line>30</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JPA/springdata-jpa-day02/src/main/java/com/domoyun/test/CustomerDaoTest.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JPA/springdata-jpa-day02/src/main/java/com/domoyun/test/CustomerDaoTest.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JPA/jpa-day01/src/main/java/com/domoyun/domain/test/JpaTest.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JPA/jpa-day01/src/main/java/com/domoyun/domain/test/JpaTest.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JPA/springdata-jpa-day02/src/main/java/com/domoyun/test/JpqlTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis_plus/src/main/java/com/domoyun/mybatis_plus/handler/MyMetaObjectHandler.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis_plus/src/main/java/com/domoyun/mybatis_plus/handler/MyMetaObjectHandler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/JPA/jpa-day01/src/main/java/com/domoyun/domain/test/JpaTest.java</url>
+          <line>143</line>
+          <properties class="com.domoyun.domain.test.JpaTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/JPA/jpa-day01/src/main/java/com/domoyun/domain/test/jpqlTest.java</url>
+          <line>103</line>
+          <properties class="com.domoyun.domain.test.jpqlTest" method="pageinfo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/mybatis_plus/src/test/java/com/domoyun/mybatis_plus/MybatisPlusApplicationTests.java</url>
+          <line>36</line>
+          <properties class="com.domoyun.mybatis_plus.MybatisPlusApplicationTests" method="testInsert">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

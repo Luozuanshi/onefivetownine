@@ -1,4 +1,4 @@
-package com.DataStructure.ArrayQueue;
+package com.DataStructureAndAlgorithm.ArrayQueue;
 
 import java.util.Scanner;
 
