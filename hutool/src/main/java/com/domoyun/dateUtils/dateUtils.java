@@ -4,6 +4,7 @@ import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUnit;
 import cn.hutool.core.date.DateUtil;
 import org.junit.Test;
+import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
 
 import java.util.Date;
 
@@ -36,6 +37,32 @@ public class dateUtils {
         //使用DateUtil.parse(String,String):Date 转换为指定格式的Date对象
         DateTime parse2 = DateUtil.parse(time1, "yyyy-MM-dd");
         System.out.println("使用DateUtil.parse(String,String):Date 转换为指定格式的Date对象\n"+parse2);
+
+    }
+
+    @Test
+    public static String verNo(String newVerNo){
+
+            if(newVerNo != null){
+                Double d = Double.parseDouble(newVerNo) + 0.0001;
+                newVerNo = String.format("%.4f", d);
+            }
+            return newVerNo;
+    }
+
+    public static void main(String[] args) {
+        String a = "0.0103";
+        String s = verNo(a);
+        System.out.println(s);
+        verNo(a);
+        String s1 = verNo(a);
+        System.out.println(s1);
+        verNo(a);
+        String s2 = verNo(a);
+        System.out.println(s2);
+        verNo(a);
+        String s3 = verNo(a);
+        System.out.println(s3);
 
     }
 
